@@ -11,7 +11,7 @@ public class testAndVerifyHomePage {
   public void f() {
 	  System.setProperty("webdriver.gecko.driver", "c:\\geckodriver.exe");
 	  WebDriver driver = new FirefoxDriver();
-	  driver.get("https://www.guru99.com/first-webdriver-script.html");
+	  driver.get("https://www.guru99.com/");
   }
   @BeforeTest
   public void beforeTest() {
